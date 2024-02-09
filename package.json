@@ -8,6 +8,10 @@
   "engines": {
     "vscode": "^1.60.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jankojjs/rtlbp"
+  },
   "maintainers": [
     {
       "name": "Janko Stanic",
