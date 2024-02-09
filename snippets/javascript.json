@@ -1,0 +1,23 @@
+{
+	"RTL Boilerplate": {
+		"scope": "javascript,typescript",
+		"prefix": "rtlbp",
+        "body": [
+            "import React from \"react\";",
+            "import render from \"@testing-library/react\";",
+            "import { YourComponent } from \"../YourComponent\";",
+            "",
+            "describe(\"<YourComponent />\", () => {",
+            "  beforeAll(() => {});",
+            "",
+            "  beforeEach(() => {});",
+            "",
+            "  it(\"should render\", () => {",
+            "    const { debug } = render(<YourComponent />);",
+            "    debug();",
+            "  });",
+            "});"
+        ],
+		"description": "A React Testing Library test boilerplate."
+	}
+}

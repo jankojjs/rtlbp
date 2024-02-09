@@ -1,0 +1,32 @@
+{
+  "name": "rtlbp",
+  "version": "1.0.0",
+  "displayName": "RTL Boilerplate",
+  "icon": "icon.png",
+  "main": "extension.js",
+  "description": "A Visual Studio Code extension for RTL boilerplate code snippets.",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "maintainers": [
+    {
+      "name": "Janko Stanic",
+      "email": "jjsolutions034@gmail.com"
+    }
+  ],
+  "categories": ["Snippets"],
+  "activationEvents": [
+    "onCommand:extension.rtlbp"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      }
+    ]
+  },
+  "keywords": [],
+  "author": "Janko Stanic",
+  "license": "ISC"
+}
