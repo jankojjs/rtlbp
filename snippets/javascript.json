@@ -1,6 +1,6 @@
 {
 	"RTL Boilerplate": {
-		"scope": "javascript,typescript",
+		"scope": "typescript,typescriptreact,javascript,javascriptreact",
 		"prefix": "rtlbp",
         "body": [
             "import React from \"react\";",

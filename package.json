@@ -1,6 +1,6 @@
 {
   "name": "rtlbp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "RTL Boilerplate",
   "icon": "icon.png",
   "main": "extension.js",
