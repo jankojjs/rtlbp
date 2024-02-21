@@ -4,7 +4,7 @@
 		"prefix": "rtlbp",
         "body": [
             "import React from \"react\";",
-            "import render from \"@testing-library/react\";",
+            "import { render } from \"@testing-library/react\";",
             "import { YourComponent } from \"../YourComponent\";",
             "",
             "describe(\"<YourComponent />\", () => {",
